@@ -7,3 +7,6 @@ def home (request):
 def id_show (request,id):
     return HttpResponse(f"This is id is {id} ")
 
+def test_other (request):
+    return HttpResponse("This is Other_site ")
+
